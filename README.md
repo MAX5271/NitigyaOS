@@ -20,7 +20,7 @@ Build a small operating system while learning:
 
 ## Reference
 
-Based on *The Little Book about OS Development*
+Based on *The Little Book about OS Development*  
 by Erik Helin and Adam Renberg.
 
 ## Environment
@@ -32,3 +32,34 @@ by Erik Helin and Adam Renberg.
 - Emulator: QEMU
 - Bootloader: GRUB
 - Host OS: Linux Mint
+
+## Progress
+
+- [x] First Multiboot-compatible kernel
+- [x] Boot kernel with GRUB
+- [x] Run kernel in QEMU
+- [ ] Assembly → C
+- [ ] Screen output
+- [ ] Serial output
+- [ ] GDT / Segmentation
+- [ ] Interrupts
+- [ ] Keyboard input
+- [ ] Paging
+- [ ] Memory management
+- [ ] User mode
+- [ ] File system
+- [ ] System calls
+- [ ] Multitasking
+
+## Documentation
+
+Development notes and learning journal are available in [`docs/`](docs/).
+
+## Project Structure
+
+```text
+NitigyaOS/
+├── src/        # All OS source and build-related files
+├── docs/       # Documentation and development journal
+├── README.md
+└── .gitignore

@@ -38,7 +38,7 @@ by Erik Helin and Adam Renberg.
 - [x] First Multiboot-compatible kernel
 - [x] Boot kernel with GRUB
 - [x] Run kernel in QEMU
-- [ ] Assembly → C
+- [x] Assembly → C
 - [ ] Screen output
 - [ ] Serial output
 - [ ] GDT / Segmentation

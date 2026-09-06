@@ -1,6 +1,6 @@
-#ifndef INCLUDE_TO_H
-#define INDLUCDE_TO_H
+#ifndef INCLUDE_IO_H
+#define INCLUDE_IO_H
 
-void outb(unsigned short port,unsigned char data);
+void outb(unsigned short port, unsigned char data);
 
 #endif

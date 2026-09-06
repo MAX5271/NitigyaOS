@@ -1,4 +1,3 @@
-extern kernel_main
 MAGIC_NUMBER equ 0x1BADB002
 FLAGS        equ 0
 CHECKSUM     equ -(MAGIC_NUMBER + FLAGS)
@@ -11,6 +10,7 @@ dd FLAGS
 dd CHECKSUM
 
 global loader
+extern kernel_main
 
 loader:
     mov esp, stack_top
@@ -18,7 +18,6 @@ loader:
 
 .loop:
     jmp .loop
-
 
 global outb
 
@@ -32,4 +31,5 @@ section .bss
 
 stack:
     resb 8192
+
 stack_top:

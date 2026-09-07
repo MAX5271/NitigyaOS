@@ -39,7 +39,7 @@ by Erik Helin and Adam Renberg.
 - [x] Boot kernel with GRUB
 - [x] Run kernel in QEMU
 - [x] Assembly → C
-- [ ] Screen output
+- [x] Screen output
 - [ ] Serial output
 - [ ] GDT / Segmentation
 - [ ] Interrupts
